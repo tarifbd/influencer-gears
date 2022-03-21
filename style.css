@@ -114,7 +114,6 @@ nav li a{
 
 .collection-title{
     margin: 0 590px 30px 588px;
-    
 }
 .product-item{
     margin-left: 170px;
@@ -124,6 +123,7 @@ nav li a{
     grid-template-columns:repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
+    margin-bottom: 100px;
 }
 .category-background{
     width: 329px;
@@ -165,85 +165,27 @@ nav li a{
     font-weight: 700;
     color: #787885;
 }
-    
-
-
-
-/* .first-item-row-1{
-    display: grid;
-    position: 
-    align-items:center;
-    justify-content: center;
-    top: 1035px;
-    left: 196px;
-    width: 329px;
-    height: 476px;
-    background-color: white;
-} */
-/* .first-item-row-2{
+.gears-content{
+    float: left;
+    width: 404;
+    height: 270px;
+    margin-left: 120px;
+    margin-top: 50px;
+}    
+.large-heading-2{
     display: flex;
-    position: 
-    align-items:center;
-    justify-content: center;
-    top: 1035px;
-    left: 590px;
-    width: 329px;
-    height: 476px;
-    background-color: white;
-} */
-/* .first-item-row-3{
+    width: 610px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    margin-left: 120px;
+    padding-top: 40px;
+    margin-bottom: -5px;
+}
+.photo-content-2{
     display: flex;
-    position:
-    align-items:center;
-    justify-content: center;
-    top: 1035px;
-    left: 980px;
-    width: 329px;
-    height: 476px;
-    background-color: white;
-} */
-
-/* .second-item-row{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    position: 
-    grid-column-gap: 110px;
-    top: 1541px;
-    left: 196px;
-    width: 329px;
-    height: 476px;
-} */
-/* .third-item-row{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    position: 
-    top: 2047px;
-    left: 196px;
-    column-gap: 30px;
-} */
-/* .item-name{
-    display: flex;
-    font-size: 28px; 
-    font-weight: 500;
-    margin-block-start: 0;
-} */
-/* .fa-star{
-    display: flex;
-    
-    
-} */
-/* .icon{
-    display: flex;
-    color: darkgoldenrod;
-} */
-/* #tripod{
-    display: flex;
-    width: 300px;
-    height: 256px;
-    top: 1052px;
-    left: 210px;
-} */
-/* .item-1{
-    background-size: 100px 100px;
-    background-color: white;
-} */
+    width: 475px;
+    height: 475px;
+    margin-left: 350px;
+    margin-top: -80px;
