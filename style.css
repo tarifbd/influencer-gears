@@ -256,6 +256,10 @@ footer{
         text-align: center;
         float: left;
     }
+    .product-des-with-pic{
+        display: flex;
+        flex-direction: column;
+    }
     .photo-content{
         position: absolute;
         margin: 81px 0 0 55px;
@@ -266,6 +270,9 @@ footer{
             width: 202px;
             height: 190px;
             margin: 81px 0 0 75px;
+    }
+        
+    
            
     }
     .large-heading{
