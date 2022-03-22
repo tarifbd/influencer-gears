@@ -99,7 +99,7 @@ nav li a{
 }
 .brand-name{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 1110px;
     height: 65px;
     margin: 70px 165px 100px 165px;
@@ -270,11 +270,8 @@ footer{
             width: 202px;
             height: 190px;
             margin: 89px 0 0 75px;
-    }
-        
+    }       
     
-           
-    }
     .large-heading{
         position: absolute;
         margin: 352px 0 0 -15px;
@@ -303,8 +300,8 @@ footer{
         line-height: 24px;
     }
     .brand-name{
-         display: grid;
-         grid-template-columns: repeat(1, 1fr);
+         display: none;
+         flex-direction: row;
          align-items: center;
          position: absolute;
          width: 275px;
@@ -316,7 +313,16 @@ footer{
     }
     .collection-title{
         margin-top: 736px;
-        margin-left: 100px;
+        margin-left: 190px;
     }
+    .main-category{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 16px 0 -65px;
+    }
+    .category-background{
+        
+    }
+
 }
     
