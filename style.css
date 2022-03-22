@@ -242,19 +242,61 @@ footer{
     color: white;
 }
 /* media queries */
+/* for mobile device */
 @media screen and (max-width:688px) {
     .content-header{
         display: flex;
         align-items: center;
-        margin-left: 90px;
+        margin-left: 70px;
         margin-top: 20px;
-    
     }
     .header-title{
         display: none;
         position: absolute;
         text-align: center;
         float: left;
+    }
+    .photo-content{
+        position: absolute;
+        margin: 0 0 0 55px;
+        width: 257px;
+        height: 257px;
+    }
+    .camera-content{
+            width: 202px;
+            height: 190px;
+            margin: 40px 0 0 75px;
+           
+    }
+    .large-heading{
+        position: absolute;
+        margin: 352px 0 0 -15px;
+        width: 398px;
+        height: 76px;
+        font-size: 28px;
+        text-align: center;
+        line-height: 42px;
+    }
+    .description{
+        position: absolute;
+        margin: 445px 0 0 16px;
+        width: 321px;
+        height: 65px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 21px;
+    }
+    .button-mmodify{
+        position: absolute;
+        margin: 530px 0 0 83px;
+        width: 194px;
+        height: 44px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 24px;
+    }
+    .brand-name{
+         position: absolute;
     }
 }
     
