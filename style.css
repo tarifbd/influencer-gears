@@ -258,14 +258,14 @@ footer{
     }
     .photo-content{
         position: absolute;
-        margin: 0 0 0 55px;
+        margin: 81px 0 0 55px;
         width: 257px;
         height: 257px;
     }
     .camera-content{
             width: 202px;
             height: 190px;
-            margin: 40px 0 0 75px;
+            margin: 81px 0 0 75px;
            
     }
     .large-heading{
