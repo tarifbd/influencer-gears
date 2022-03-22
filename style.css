@@ -75,7 +75,7 @@ nav li a{
     height: 44px;
     padding: 10px 24px;
     border-radius: 41px;
-    margin-left: 120px;  
+    margin-left: 120px; 
 }
 .fa-arrow-right{
     margin-left: 1em;
@@ -192,7 +192,7 @@ nav li a{
     display: flex;
     width: 475px;
     height: 475px;
-    margin-left: 350px;
+    margin-left: -350px;
     margin-top: -80px;
 }
 .description-2{
@@ -203,6 +203,9 @@ nav li a{
     font-size: 16px;
     line-height: 28px;
     margin-left: 120px;
+}
+#button{
+    margin-top: 20px;
 } 
 #explore-product{
  margin-left: 1200px;
@@ -308,21 +311,79 @@ footer{
          height: 100px;
          margin-top: 425px;
          margin-left: 42.5px;
-         
-
     }
     .collection-title{
         margin-top: 736px;
-        margin-left: 190px;
+        margin-left: 105px;
+        width: 250px;
+        height: 24px;
     }
     .main-category{
         display: flex;
         flex-direction: column;
-        margin: 30px 16px 0 -65px;
+        margin: 30px 16px 0 -140px;
     }
-    .category-background{
+    .gear-descrption{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        
+
+    }
+    .large-heading-2{
+        position: relative;
+        align-items: center;
+        text-align: center;
+        width: 311px;
+        height: 72px;
+        margin-top: -60px;
+        font-size: 24px;
+        line-height: 36px;
+        margin-left: 35px;
+        margin-bottom: 100px;
         
     }
+    .description-2{
+        position: relative;
+        text-align: center justify;
+        width: 329px;
+        height: 88px;
+        font-size: 20px;
+        line-height: 36px;
+        margin-left: 25px;
+        margin-top: -120px;
+        text-align: justify; 
+    }  
+    .gears-content{
+        position: absolute;
+        width: 299px;
+        height: 188px;
+        align-items: center;
+        justify-content: center;
+        margin-left: -5px;
+        margin-top: 300px;
+        
+       
+        
+    } 
+    #button{
+        position:relative;
+        margin-top: 120px;
 
+    }
+    #explore-product{
+        position: relative;
+        display:inline;
+        margin-left: 100px;
+        
+    }
+    .socials-link{
+        align-items: center;
+        margin-left: -400px;
+    }
+    footer{
+        position: absolute;
+        margin-top: 250px;
+    }
 }
     
