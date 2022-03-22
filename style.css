@@ -225,6 +225,7 @@ footer{
     line-height: 15px;
     
 }
+
 .footer-content p{
     font-size: 12px;
 
@@ -246,7 +247,7 @@ footer{
 }
 /* media queries */
 /* for mobile device */
-@media screen and (max-width:688px) {
+@media screen and (max-width: 668px) {
     .content-header{
         display: flex;
         align-items: center;
