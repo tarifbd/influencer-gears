@@ -26,7 +26,8 @@ nav li a{
 }
 .header-title{
     display: flex;
-    justify-content:end;  
+    align-items: center;
+    justify-content:end;
     margin-top: -40px;
     margin-right: 120px;
     margin-bottom: 145px;
@@ -220,12 +221,7 @@ footer{
     font-size: 12px;
 
 }
-ul li{
-    justify-content: center;
-    list-style: none;
-    font-size: 32px;
-    
-}
+
 .socials-link{
     display: flex;
     position: absolute;
@@ -234,7 +230,8 @@ ul li{
     justify-content: center;
     column-gap: 15px;
     margin-left: 640px;
-    
+    font-size: 32px;
+    list-style: none;
 }
 .fa-brands{
     color: white;
